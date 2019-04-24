@@ -13,7 +13,9 @@ class Persona:
     def set_edad(self, cantidad):
         self.edad = cantidad
 
-    def reducir_edad(self):
-        self.edad = self.edad - 1
+    def cumple_anhos(self):
+        self.edad = self.edad + 1
 
 fulano = Persona(18, "Juan")
+
+#Modificar la clase persona, agregarle un atributo edad y un medodo cumpleanhos
